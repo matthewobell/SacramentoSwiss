@@ -1,8 +1,8 @@
-const menuButton = document.getElementById("menuButton");
-const navMenu = document.getElementById("navMenu");
+const toggle = document.getElementById("mobileToggle")
+const nav = document.querySelector("nav ul")
 
-menuButton.addEventListener("click", function() {
+toggle.addEventListener("click", () => {
 
-navMenu.classList.toggle("active");
+nav.classList.toggle("active")
 
-});
+})
