@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Community Organization</title>
+<title>Sacramento Helvetia Verein</title>
 
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -15,63 +16,92 @@
 
 <header>
 
-<div class="container">
+<div class="nav-container">
 
 <div class="logo">
-Community Organization
+
+<img src="logo.png" alt="Sacramento Helvetia Verein">
+
 </div>
 
-<nav id="navMenu">
+<nav id="nav">
 
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="events.html">Events</a>
-<a href="contact.html">Contact</a>
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li class="dropdown">
+
+<a href="#">About</a>
+
+<ul class="dropdown-menu">
+<li><a href="#">History</a></li>
+<li><a href="#">Board</a></li>
+</ul>
+
+</li>
+
+<li><a href="#">Events</a></li>
+
+<li><a href="#">Sponsors</a></li>
+
+<li><a href="#">Gallery</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
 
 </nav>
 
-<button id="menuButton">☰</button>
+<div class="mobile-toggle" id="mobileToggle">
+☰
+</div>
 
 </div>
 
 </header>
 
+
 <section class="hero">
 
-<div class="container">
+<div class="hero-overlay">
 
-<h1>Welcome to Our Community</h1>
+<h1>Sacramento Helvetia Verein</h1>
 
-<p>
-Connecting people through culture, tradition, and events.
-</p>
+<p>Celebrating Swiss Heritage Since 1892</p>
 
 </div>
 
 </section>
 
-<section class="content">
 
-<div class="container">
+<section class="events">
 
 <h2>Upcoming Events</h2>
 
-<div class="card-grid">
+<div class="event-grid">
 
-<div class="card">
-<h3>Spring Festival</h3>
-<p>Join us for music, food, and community celebration.</p>
+<div class="event-card">
+
+<h3>Swiss National Day</h3>
+
+<p>August 1st Celebration</p>
+
 </div>
 
-<div class="card">
-<h3>Annual Picnic</h3>
-<p>A gathering for families and friends in the park.</p>
+<div class="event-card">
+
+<h3>Fall Festival</h3>
+
+<p>Traditional Swiss food and music</p>
+
 </div>
 
-<div class="card">
-<h3>Holiday Celebration</h3>
-<p>Celebrate traditions with our community.</p>
-</div>
+<div class="event-card">
+
+<h3>Holiday Gathering</h3>
+
+<p>Annual community celebration</p>
 
 </div>
 
@@ -79,17 +109,47 @@ Connecting people through culture, tradition, and events.
 
 </section>
 
-<footer>
 
-<div class="container">
+<section class="sponsors">
 
-<p>© 2026 Community Organization</p>
+<h2>Our Sponsors</h2>
+
+<div class="sponsor-grid">
+
+<img src="sponsor1.png">
+<img src="sponsor2.png">
+<img src="sponsor3.png">
+<img src="sponsor4.png">
 
 </div>
 
+</section>
+
+
+<section class="gallery">
+
+<h2>Photo Gallery</h2>
+
+<div class="gallery-grid">
+
+<img src="gallery1.jpg">
+<img src="gallery2.jpg">
+<img src="gallery3.jpg">
+<img src="gallery4.jpg">
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Sacramento Helvetia Verein</p>
+
 </footer>
 
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 
 </body>
+
 </html>
