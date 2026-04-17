@@ -800,6 +800,16 @@ footer p {
   pointer-events: all;
 }
 
+  .carousel-controls {
+    padding: 0 4px;
+  }
+
+  .carousel-button {
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+  }
+
 .carousel-header {
   display: flex;
   align-items: center;
