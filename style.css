@@ -280,9 +280,11 @@ nav a:hover {
   gap: 22px;
   margin-top: 30px;
   overflow-x: auto;
-  padding-bottom: 10px;
+  overflow-y: hidden;
+  padding: 0 80px 18px 0;
   scroll-snap-type: x mandatory;
-  scrollbar-width: thin;
+  scrollbar-width: auto;
+  scrollbar-color: #b11f2a #e9e1d6;
 }
 
 .event-carousel .event-detail-card {
@@ -565,17 +567,18 @@ footer p {
   }
 
   .event-carousel::-webkit-scrollbar {
-  height: 10px;
+  height: 14px;
 }
 
 .event-carousel::-webkit-scrollbar-track {
-  background: #eee7dc;
+  background: #e9e1d6;
   border-radius: 999px;
 }
 
 .event-carousel::-webkit-scrollbar-thumb {
-  background: #cdbfb0;
+  background: #b11f2a;
   border-radius: 999px;
+  border: 3px solid #e9e1d6;
 }
 
   .gallery-grid img {
