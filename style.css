@@ -227,6 +227,29 @@ nav a:hover {
   box-shadow: 0 10px 25px rgba(44, 32, 20, 0.06);
 }
 
+.event-detail-card {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.event-card-content h3 {
+  margin-top: 0;
+}
+
+.event-card-content p:last-child {
+  margin-bottom: 0;
+}
+
+.event-card-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-bottom: 0;
+}
+
 .event-card h3,
 .info-card h3,
 .event-detail-card h3 {
@@ -515,6 +538,14 @@ footer p {
   .contact-form {
     padding: 22px;
     border-radius: 18px;
+  }
+
+    .event-detail-card {
+    grid-template-columns: 1fr;
+  }
+
+  .event-card-image {
+    height: 220px;
   }
 
   .gallery-grid img {
