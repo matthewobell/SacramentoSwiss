@@ -339,3 +339,16 @@ display:block;
     grid-template-columns: 1fr;
   }
 }
+
+.board-card {
+  text-align: center;
+}
+
+.board-card img {
+  width: 100%;
+  max-width: 260px;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 16px;
+}
