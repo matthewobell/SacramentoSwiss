@@ -231,7 +231,7 @@ nav a:hover {
   display: grid;
   grid-template-columns: 320px 1fr;
   gap: 24px;
-  align-items: center;
+  align-items: start;
 }
 
 .event-card-content h3 {
