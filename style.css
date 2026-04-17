@@ -283,12 +283,15 @@ nav a:hover {
   overflow-y: hidden;
   padding: 0 80px 18px 0;
   scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
   scrollbar-width: auto;
   scrollbar-color: #b11f2a #e9e1d6;
 }
 
 .event-carousel .event-detail-card {
   scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .sponsor-grid {
