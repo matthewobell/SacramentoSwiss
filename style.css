@@ -232,6 +232,7 @@ nav a:hover {
   grid-template-columns: 320px 1fr;
   gap: 24px;
   align-items: start;
+  min-height: 100%;
 }
 
 .event-card-content h3 {
@@ -272,10 +273,20 @@ nav a:hover {
   margin-bottom: 0;
 }
 
-.stacked-events {
+.event-carousel {
   display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(820px, 920px);
   gap: 22px;
   margin-top: 30px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+}
+
+.event-carousel .event-detail-card {
+  scroll-snap-align: start;
 }
 
 .sponsor-grid {
@@ -547,6 +558,25 @@ footer p {
   .event-card-image {
     height: 220px;
   }
+
+    .event-carousel {
+    grid-auto-columns: 92%;
+    gap: 16px;
+  }
+
+  .event-carousel::-webkit-scrollbar {
+  height: 10px;
+}
+
+.event-carousel::-webkit-scrollbar-track {
+  background: #eee7dc;
+  border-radius: 999px;
+}
+
+.event-carousel::-webkit-scrollbar-thumb {
+  background: #cdbfb0;
+  border-radius: 999px;
+}
 
   .gallery-grid img {
     height: 220px;
