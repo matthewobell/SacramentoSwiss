@@ -525,3 +525,128 @@ footer p {
     height: 240px;
   }
 }
+
+
+.hero-kicker {
+  display: inline-block;
+  margin: 0 0 18px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.button-primary,
+.button-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 22px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.button-primary {
+  background: #b11f2a;
+  color: white;
+}
+
+.button-primary:hover {
+  background: #921923;
+  transform: translateY(-1px);
+}
+
+.button-secondary {
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.button-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
+}
+
+.section-label {
+  margin: 0 0 12px;
+  color: #b11f2a;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-text {
+  max-width: 760px;
+  text-align: center;
+}
+
+.intro-text p:last-child {
+  margin-bottom: 0;
+}
+
+.event-meta {
+  color: #b11f2a;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.split-feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+  align-items: center;
+}
+
+.split-feature-text p:last-child {
+  margin-bottom: 0;
+}
+
+.split-feature-image img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 22px;
+  box-shadow: 0 10px 25px rgba(44, 32, 20, 0.08);
+}
+
+.text-link {
+  color: #b11f2a;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .split-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .split-feature-image img {
+    height: 300px;
+  }
+}
