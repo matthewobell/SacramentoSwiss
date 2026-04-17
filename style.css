@@ -773,26 +773,6 @@ footer p {
   transform: translateY(-50%);
   pointer-events: none;
   padding: 0 10px;
-}
-
-.carousel-button {
-  pointer-events: all;
-}
-
-.carousel-wrapper {
-  position: relative;
-}
-
-.carousel-controls {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-  pointer-events: none;
-  padding: 0 10px;
   z-index: 2;
 }
 
