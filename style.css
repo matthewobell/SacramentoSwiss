@@ -778,3 +778,36 @@ footer p {
 .carousel-button {
   pointer-events: all;
 }
+
+.carousel-wrapper {
+  position: relative;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+  padding: 0 10px;
+  z-index: 2;
+}
+
+.carousel-button {
+  pointer-events: all;
+}
+
+.carousel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 8px;
+}
+
+.carousel-header h2 {
+  margin: 0;
+}
