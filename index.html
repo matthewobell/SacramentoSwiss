@@ -1,144 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Sacramento Helvetia Verein</title>
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sacramento Helvetia Verein</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
+  <header>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="logo.png" alt="Sacramento Helvetia Verein">
+      </div>
 
-<div class="nav-container">
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
 
-<div class="logo">
+          <li class="dropdown">
+            <a href="about.html">About</a>
+            <ul class="dropdown-menu">
+              <li><a href="about.html#history">History</a></li>
+              <li><a href="about.html#board">Board</a></li>
+            </ul>
+          </li>
 
-<img src="logo.png" alt="Sacramento Helvetia Verein">
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
 
-</div>
+      <div class="mobile-toggle" id="mobileToggle">☰</div>
+    </div>
+  </header>
 
-<nav id="nav">
-  <ul>
-    <li><a href="index.html">Home</a></li>
+  <section class="hero">
+    <div class="hero-overlay">
+      <p class="hero-kicker">Established 1892</p>
+      <h1>Sacramento Helvetia Verein</h1>
+      <p>
+        Preserving Swiss heritage, building community, and celebrating tradition in Northern California.
+      </p>
 
-    <li class="dropdown">
-      <a href="about.html">About</a>
-      <ul class="dropdown-menu">
-        <li><a href="about.html#history">History</a></li>
-        <li><a href="about.html#board">Board</a></li>
-      </ul>
-    </li>
+      <div class="hero-actions">
+        <a href="about.html" class="button-primary">Learn More</a>
+        <a href="events.html" class="button-secondary">View Events</a>
+      </div>
+    </div>
+  </section>
 
-    <li><a href="events.html">Events</a></li>
-    <li><a href="gallery.html">Gallery</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+  <section class="page-section">
+    <div class="content-container intro-section">
+      <div class="intro-text">
+        <p class="section-label">Welcome</p>
+        <h2>A Swiss community rooted in tradition</h2>
+        <p>
+          Sacramento Helvetia Verein brings together members, families, and friends to celebrate
+          Swiss culture through gatherings, traditions, and community events throughout the year.
+        </p>
+      </div>
+    </div>
+  </section>
 
-<div class="mobile-toggle" id="mobileToggle">
-☰
-</div>
+  <section class="events">
+    <div class="content-container">
+      <p class="section-label">Featured Events</p>
+      <h2>Upcoming Events</h2>
 
-</div>
+      <div class="event-grid">
+        <div class="event-card">
+          <p class="event-meta">August 1</p>
+          <h3>Swiss National Day Celebration</h3>
+          <p>
+            Join us for one of our signature celebrations honoring Swiss heritage with food,
+            fellowship, and tradition.
+          </p>
+        </div>
 
-</header>
+        <div class="event-card">
+          <p class="event-meta">Monthly</p>
+          <h3>Kafichränzli Social</h3>
+          <p>
+            An informal gathering for coffee, conversation, and Swiss card games with friends
+            and fellow members.
+          </p>
+        </div>
 
+        <div class="event-card">
+          <p class="event-meta">Seasonal</p>
+          <h3>Holiday Gathering</h3>
+          <p>
+            Celebrate the season with our annual community gathering featuring festive traditions
+            and good company.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section class="hero">
+  <section class="page-section alt-section">
+    <div class="content-container">
+      <div class="split-feature">
+        <div class="split-feature-text">
+          <p class="section-label">Our History</p>
+          <h2>More than a century of Swiss heritage</h2>
+          <p>
+            Founded in 1892, Sacramento Helvetia Verein has served as a gathering place for
+            Swiss culture, friendship, and civic tradition for generations.
+          </p>
+          <a href="about.html" class="text-link">Read our story</a>
+        </div>
 
-<div class="hero-overlay">
+        <div class="split-feature-image">
+          <img src="gallery1.jpg" alt="Swiss club gathering">
+        </div>
+      </div>
+    </div>
+  </section>
 
-<h1>Sacramento Helvetia Verein</h1>
+  <section class="sponsors">
+    <div class="content-container">
+      <p class="section-label">Supporters</p>
+      <h2>Community Support</h2>
 
-<p>Celebrating Swiss Heritage Since 1892</p>
+      <div class="sponsor-grid">
+        <img src="sponsor1.png" alt="Sponsor 1">
+        <img src="sponsor2.png" alt="Sponsor 2">
+        <img src="sponsor3.png" alt="Sponsor 3">
+        <img src="sponsor4.png" alt="Sponsor 4">
+      </div>
+    </div>
+  </section>
 
-</div>
+  <section class="gallery">
+    <div class="content-container">
+      <p class="section-label">Gallery</p>
+      <h2>Moments from our community</h2>
 
-</section>
+      <div class="gallery-grid">
+        <img src="gallery1.jpg" alt="Gallery image 1">
+        <img src="gallery2.jpg" alt="Gallery image 2">
+        <img src="gallery3.jpg" alt="Gallery image 3">
+        <img src="gallery4.jpg" alt="Gallery image 4">
+      </div>
+    </div>
+  </section>
 
+  <footer>
+    <p>© 2026 Sacramento Helvetia Verein</p>
+  </footer>
 
-<section class="events">
-
-<h2>Upcoming Events</h2>
-
-<div class="event-grid">
-
-<div class="event-card">
-
-<h3>Swiss National Day</h3>
-
-<p>August 1st Celebration</p>
-
-</div>
-
-<div class="event-card">
-
-<h3>Fall Festival</h3>
-
-<p>Traditional Swiss food and music</p>
-
-</div>
-
-<div class="event-card">
-
-<h3>Holiday Gathering</h3>
-
-<p>Annual community celebration</p>
-
-</div>
-
-</div>
-
-</section>
-
-
-<section class="sponsors">
-
-<h2>Our Sponsors</h2>
-
-<div class="sponsor-grid">
-
-<img src="sponsor1.png">
-<img src="sponsor2.png">
-<img src="sponsor3.png">
-<img src="sponsor4.png">
-
-</div>
-
-</section>
-
-
-<section class="gallery">
-
-<h2>Photo Gallery</h2>
-
-<div class="gallery-grid">
-
-<img src="gallery1.jpg">
-<img src="gallery2.jpg">
-<img src="gallery3.jpg">
-<img src="gallery4.jpg">
-
-</div>
-
-</section>
-
-
-<footer>
-
-<p>© 2026 Sacramento Helvetia Verein</p>
-
-</footer>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
-
 </html>
