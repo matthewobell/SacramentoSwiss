@@ -44,10 +44,11 @@
           <p><strong>Location:</strong> Sacramento, California</p>
         </div>
 
-        <form class="contact-form">
-          <input type="text" placeholder="Your Name" required>
-          <input type="email" placeholder="Your Email" required>
-          <textarea placeholder="Your Message" rows="6" required></textarea>
+        <form class="contact-form" action="https://formspree.io/f/mbdqopje" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+          <input type="hidden" name="_subject" value="New Sacramento Swiss website contact form submission">
           <button type="submit">Send Message</button>
         </form>
       </div>
