@@ -759,6 +759,12 @@ footer p {
   transform: translateY(-2px);
 }
 
+.carousel-button.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.92);
+}
+
 .carousel-wrapper {
   position: relative;
 }
@@ -766,14 +772,13 @@ footer p {
 .carousel-controls {
   position: absolute;
   top: 50%;
-  left: 0;
-  right: 0;
+  left: 14px;
+  right: 14px;
   display: flex;
   justify-content: space-between;
   transform: translateY(-50%);
   pointer-events: none;
-  padding: 0 10px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .carousel-button {
@@ -781,7 +786,8 @@ footer p {
 }
 
   .carousel-controls {
-    padding: 0 4px;
+    left: 6px;
+    right: 6px;
   }
 
   .carousel-button {
